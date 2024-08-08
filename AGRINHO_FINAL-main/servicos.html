@@ -1,0 +1,119 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos serviços</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&display=swap" 
+        rel="stylesheet"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="caixa">
+            <h1><img src="img/logo2.png" class="imagem_h1" alt="logo campagro"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container secundario">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Fases da Lua</h2>
+            <p class="descricao__texto">
+Plantar em datas específicas pode ajudar a maximizar o sucesso das suas culturas,
+ levando em conta o ciclo lunar e as condições climáticas. 
+Aqui temos um sugestão de plantio baseada nas fases da lua para agosto de 2024, 
+que podem influenciar o crescimento das plantas:
+</p>
+<ul class="lista__lua">
+    <li>Lua Nova: 4 de agosto</li>
+    <li>Quarto Crescente: 12 de agosto</li>
+    <li>Lua Cheia: 19 de agosto</li>
+    <li>Quarto Minguante: 26 de agosto</li>
+    </ul>
+        </div>
+        <img src="img/lua1.png" alt="Fases da lua" class="secundario__imagem">
+    </section>
+
+    <section class="Calendario">
+         <div class="calendario__descricao" style="text-align:center;" >
+            <h2 class="calendario__titulo">Calendário</h2>
+            <p class="descricao__calendario">Plantar em datas específicas pode ajudar a maximizar o sucesso das suas culturas,
+                 levando em conta o ciclo lunar e as condições climáticas. Aqui está uma sugestão baseada 
+                 nas fases da lua para agosto de 2024, que podem influenciar o crescimento das plantas:</p>
+    <img src="img/Agosto.png" alt="calendário" class="calendario__imagem">
+         </div>
+        </section>
+
+
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Indicações de cultivo</h2>
+        <p class="descricao__carrossel">Recomendações de cultivo referente ao mês de Agosto de 2024 na região Oeste do Paraná</p>
+        </div>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/7.png"
+                            alt="Morango">Morango</div>
+                    <div class="swiper-slide"><img src="img/8.png"
+                            alt="Mamao">Mamão</div>
+                    <div class="swiper-slide"><img src="img/9.png"
+                            alt="Melancia">Melancia </div>
+                      <div class="swiper-slide"><img src="img/10.png"
+                            alt="Alface">Alface</div>
+                    <div class="swiper-slide"><img src="img/11.png"
+                            alt="Couve">Couve</div>
+                    <div class="swiper-slide"><img src="img/12.png"
+                            alt="Espinafre">Espinafre</div>      
+                    <div class="swiper-slide"><img src="img/13.png"
+                            alt="Beterraba">Beterraba</div>
+                    <div class="swiper-slide"><img src="img/14.png"
+                            alt="Cenoura">Cenoura</div>
+
+                    <div class="swiper-slide"><img src="img/15.png"
+                            alt="Rabanete"></div>    
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+    <footer>
+        <img src="img/logo2.png" alt="Logo da Campagro">
+        <p class="copyright">&copy; Copyright Campagro - 2024</p>
+    </footer>
+</body>
+
+</html>
+        
